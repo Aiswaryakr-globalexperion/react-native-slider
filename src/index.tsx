@@ -866,6 +866,8 @@ export class Slider extends PureComponent<SliderProps, SliderState> {
                                     : {
                                           backgroundColor: thumbTintColor,
                                           ...thumbStyle,
+                                          width: 24,
+                                          height: 24,
                                       },
                                 {
                                     transform: [
